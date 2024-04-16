@@ -1,0 +1,76 @@
+.caixa
+{
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+}
+
+.caixaComFlex
+{
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    display: flex;
+}
+.caixaComFlexeWrap
+{
+    max-width: 300px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.caixaFlexStart
+{
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.caixaFlexend
+{
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: flex-end;
+}
+.caixaSpaceBetween
+{
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content:space-between;
+}
+.caixaSpaceAround
+{
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content:space-around;
+}
+
+.caixaCenter
+{
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content:center;
+}
+.item
+{
+    background-color: red;
+    font-size: 32px;
+    text-align: center;
+    margin: 5px;
+}
+h1
+{
+    text-align: center;
+}
